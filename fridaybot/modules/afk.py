@@ -49,7 +49,7 @@ async def _(event):
         if reason:
             await borg.send_message(
                 event.chat_id,
-                f"**My Master Seems To Be Too Busy 👀.** \n__He Going Afk Because Of__ `{reason}`",
+                f"**Mr.Vasu Seems To Be Too Busy 👀.** \n__He Going Afk Because Of__ `{reason}`",
             )
         else:
             await borg.send_message(event.chat_id, f"**I Am Busy And I Am Going Afk**.")
